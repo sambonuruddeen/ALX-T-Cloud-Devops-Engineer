@@ -9,7 +9,7 @@ Deploy Network:
 Deploy Server: 
 `aws cloudformation create-stack --stack-name udacityProjectServer --region us-east-1 --template-body file://server.yml --parameters file://server-parameters.json`
 
-Web App Link: 
+Web App Link: http://udacityproject-81168769.us-east-1.elb.amazonaws.com/
 
 
 ![Infrastructure Diagram](diagram.png)
